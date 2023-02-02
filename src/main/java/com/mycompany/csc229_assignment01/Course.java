@@ -35,9 +35,17 @@ package com.mycompany.csc229_assignment01;
 public class Course {
 private int ID;
 private String Name;
-private int Code;
-   
-
+private String Code;
+   // This is the default constructor
+public Course(){
+  
+}
+// This is the overloaded constructor taking in the parameters and being declared.
+public Course(int ID, String Name, String Code){
+    this.ID = ID;
+    this.Name = Name;
+    this.Code = Code;
+}
 // getter method which requires a return
 public int getID(){
     return ID;
@@ -54,10 +62,10 @@ public String getName(){
 public void setName(String newName){
     this.Name = newName;
 }
-public int getCode(){
+public String getCode(){
     return Code;
 }
-public void setCode(int newCode){
+public void setCode(String newCode){
     this.Code = newCode;
 }
 }
