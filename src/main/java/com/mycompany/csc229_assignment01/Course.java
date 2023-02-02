@@ -33,5 +33,25 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
+private int ID;
+private String Name;
+private int code;
+   
 
+// getter method which requires a return
+public int getID(){
+    return ID;
+}
+// setting the ID
+public void setID(int newID){
+    this.ID = newID;
+}
+// gets the name making for a return
+public String getName(){
+    return Name;
+}
+// sets the name
+public void setName(String newName){
+    this.Name = newName;
+}
 }
