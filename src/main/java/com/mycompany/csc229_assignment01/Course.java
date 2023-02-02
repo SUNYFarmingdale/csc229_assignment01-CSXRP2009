@@ -35,7 +35,7 @@ package com.mycompany.csc229_assignment01;
 public class Course {
 private int ID;
 private String Name;
-private int code;
+private int Code;
    
 
 // getter method which requires a return
@@ -53,5 +53,11 @@ public String getName(){
 // sets the name
 public void setName(String newName){
     this.Name = newName;
+}
+public int getCode(){
+    return Code;
+}
+public void setCode(int newCode){
+    this.Code = newCode;
 }
 }
