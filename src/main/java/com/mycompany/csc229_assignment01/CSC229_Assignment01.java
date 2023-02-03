@@ -14,6 +14,7 @@ public class CSC229_Assignment01 {
         CSC229.setName ("Data Structures and Algorithms");
         System.out.println(CSC229.getName());
         System.out.println(CSC230.getName());
+        System.out.println(CSC230.getCode());
     }
     
 }
