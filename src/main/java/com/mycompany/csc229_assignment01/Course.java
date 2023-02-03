@@ -23,7 +23,7 @@ The Course class should have:
 
  - Submit the Github link here (make sure it is a public repo).
 
-
+  https://github.com/SUNYFarmingdale/csc229_assignment01-CSXRP2009.git
  */
 
 package com.mycompany.csc229_assignment01;
